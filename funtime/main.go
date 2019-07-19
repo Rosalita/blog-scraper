@@ -9,12 +9,6 @@ import (
 	"github.com/lunny/html2md"
 )
 
-var (
-	baseURL      = "https://blog.scottlogic.com"
-	blogLinks    []string
-	blogImgLinks []string
-)
-
 func main() {
 
 	files, err := ioutil.ReadDir("html")
@@ -33,9 +27,6 @@ func main() {
 
 		html, err := ioutil.ReadAll(f)
 		markdown := html2md.Convert(string(html))
-
-		fmt.Println("****")
-		fmt.Println(markdown)
 
 		fullname := strings.Split(file.Name(), ".")
 		baseName := fullname[0]
