@@ -1,0 +1,18 @@
+Its now 2015 and we're all living in the future! Our world has become a place where invisible intangible things (like APIs) have become rather important in our day-to-day lives. 
+<p>
+This morning while staring at my PC with sleepy eyes, details of a security vulnerability at <a href="www.moonpig.com">www.moonpig.com</a> popped up in one of my social media feeds linking to <a href="http://ifc0nfig.com/moonpig-vulnerability/">this article</a>. The post itself was fairly negative towards Moonpig, along the lines of "I will never use their service again because they fail at security. How dare they fail to protect my details!".
+<p>
+However, reading the article I became especially interested in the story for two reasons. Firstly, this was an API flaw and I do a lot of integration testing involving APIs in my day job. We all know <a href="https://developer.wordpress.com/2014/12/08/on-api-correctness/">making APIs and using APIs is hard</a>. Secondly, the article claimed Moonpig allegedly hadn't bothered to fix their API yet!
+<p>
+So I did what any good software tester would do, I attempted to recreate the bug.
+<p>
+Currently, my weapon of choice for querying APIs is <a href="https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm"> Google's Postman client plugin for Chrome</a>. I like Postman because it can query both SOAP and Restful APIs. It's also really easy to save and share API collections. Authenticating with APIs is fairly straight forward in Postman too, but from reading the article I wouldn't have to do that.
+<p>
+I still couldn't believe Moonpig's API had absolutely no authentication on it whatsoever!?! I decided to press on regardless. If I could experience a dodgy API first hand it would make it easier for me to identify similar dodgy APIs in the future.
+<p>
+Fortunately for Moonpig (and more importantly Moonpig's customers) by the time I was able to try a query, around 11 hours after the details of the vulnerability had been disclosed to the internet, their API was completely and utterly dead. It was no longer spitting out customer's details. It was totally unresponsive and returning status code of 0. RIP api.moonpig.com
+<p>
+I honestly don't think Moonpig would have fixed this problem had details of the vulnerability hadn't been shared online. The author of the original blog post states he told Moonpig about this problem back in 2013! As harsh as it may sound, in these circumstances I think sharing the vulnerability was definitely the right thing to do as it has forced Moonpig to take corrective action - even if that corrective action appears to be pulling the plug on the API rather than fixing it. Companies like Moonpig have a responsibility to look after our data!
+<p>
+And now the damage is done with <a href="http://www.theguardian.com/technology/2015/jan/06/personal-details-moonpig-exposed-security-bug">major newspapers picking up on the story</a> and Moonpig's reputation torn to shreds. I think the saddest part of the story is Moonpig ignoring such a bad bug for such a long time. 
+<p>

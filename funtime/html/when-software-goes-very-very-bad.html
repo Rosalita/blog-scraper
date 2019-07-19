@@ -1,0 +1,30 @@
+I saw <a href="http://www.birminghammail.co.uk/news/midlands-news/23-billion-ticket-birmingham-airport-7836398">this article</a> recently about how a website owned by a company called eDreams nearly charged a lady £23 billion for a return flight.
+<p>
+<p>
+Closer inspection revealed that it wasn't the flight that caused the problem, it was actually the return baggage check-in cost.
+<p>
+<p>
+<div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-ofGkJ6733Hg/VGpvURjwzxI/AAAAAAAABQI/JCmpZo0c8X0/s1600/air-ticket-main.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-ofGkJ6733Hg/VGpvURjwzxI/AAAAAAAABQI/JCmpZo0c8X0/s400/air-ticket-main.jpg" /></a></div>
+<p>
+<p>
+How could such a massive error make it unspotted onto the eDreams website? 
+<p>
+Maybe they didn't have any automated tests that could verify the return baggage cost was far to large. <p>
+Maybe the bug was an edge case that only occurred under very specific circumstances, which this customer accidently stumbled upon. <p>
+Maybe the testers were outsourced and just didn't care. <p>
+Maybe the testers didn't have control of their staging environment and were trying to test a moving target as their developers kept updating it every 20 minutes. <p>
+Maybe they didn't have a staging environment at all.<p>
+Maybe the testers were not given enough time to test. <p>
+Maybe their testing department found the bug, but didn't have the power to stop the build from being released.<p>
+Maybe the data the testers tested with was different to live data.<p>
+Maybe the customer followed a different path through the software to the testers.<p>
+Maybe none of the testers were looking at the return baggage check in cost, because that area had not changed recently.<p>
+Maybe the website simply wasn't tested at all.
+<p>
+There are potentially hundreds of reasons this bug could have been missed.
+<p>
+What damage has the bug caused? I would say massive damage to their company reputation. The £23 billion ticket made headline news! As a customer I would be wary of buying anything from their website. As a software tester, this does not sound like a company I would EVER want to work for.
+<p>
+About a month after the appearance of this bug on their website, <a href="http://www.reuters.com/article/2014/10/24/edreams-odigeo-suspension-idUSL6N0SJ47Z20141024">British Airways and Iberia decided to withdraw their fares</a> from three of their websites. This, in turn, wiped 59% off the e-dreams share value. How long now until this company folds?
+<p>
+When software goes bad, it can go very, very, very bad. Some people don't realise just how bad this can be. It's doubtful that there will be a happy ending for eDreams. Their story is a true software testing nightmare. 
