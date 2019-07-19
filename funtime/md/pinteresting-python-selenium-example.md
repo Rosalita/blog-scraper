@@ -1,0 +1,11 @@
+Eight months ago I started my selenium adventure by learning  [how to automate finding pictures of cute cats](http://testingfuntime.blogspot.co.uk/2014/12/selenium-adventures-how-to-automate.html). I chose Python as my weapon of choice due to it being very easy to install, not requiring a server to run and not needing a heavy IDE for development. I have been writing automated UI tests both at home and at work. I found my automated tests not only saved me time carrying out tedious repetitive regression tasks, but also found a range of genuine bugs ranging from obscure to showstopper! 
+
+
+
+Once I started writing tests with Selenium I found the more I wrote, the more snippets of code I had available to re-use. Writing tests started becoming much faster when the challenges I was encountering were challenges I had previously solved. I wanted to take all my good code snippets and combine them into a useful test that could be used as an example or reference material. None of the tests I had written at work were suitable as they were not written for software which was available to the general public. So I chose a well-known website and decided I was going to write a really good test with lots of comments so I could keep all my code snippets in one place. 
+
+
+The site I chose to automate was [Pinterest](http://www.pinterest.com) and my 'boiler plate' Python Selenium example can be found [here](https://github.com/Rosalita/Selenium/blob/master/Python%20Examples/pinterest_example.py) on Github 
+
+
+While writing the test I discovered something that appeared to be a minor bug. A logged in user was able to enter the email address they used to register for Pinterest into the 'Invite friends' box and invite themselves to join Pinterest again, receiving an invitation email for a site they already registered for in the process. I guess I would have expected the user's email address to be checked to see if it already belonged to an active account before sending an invite. I guess this just proves there is always value in sitting down and taking the time to write these kinds of test.

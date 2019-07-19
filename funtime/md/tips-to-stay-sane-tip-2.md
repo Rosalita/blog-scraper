@@ -1,0 +1,21 @@
+Don't lie, ever. Not even a little lie, not even once. Software does not lie. Software will not cover up for you. Testers that lie, **ALWAYS** get bitten in the ass. 
+
+
+
+
+When I worked with small teams of testers sometimes a tester would get through their work for the day far too easily, far too efficiently, ask no questions and all of their tests would mysteriously pass. As a team lead, situations like this scared me a lot. It was my head on the block if tests were skipped and bugs missed, not theirs. I used to protect myself by covertly stealth testing random samples of suspicious "too good to be true" looking work. Liars frequently didn't get offered any more work. 
+
+
+
+
+As a tester I feel that it is essential to build a reputation for speaking the truth, the whole truth and nothing but the truth about the software in test. By telling the truth all the time about the software's behaviour a large team can start to spot patterns in the big picture together. I've seen really good things happen when large test teams start sharing honest observations between themselves. Tester says something like "I think I just saw something strange. I'm not sure why and I can't force it to happen again. I'm certain I saw it though." and then another tester pipes up "Yeah, I saw something similar on Wednesday. What were you doing when it happened?" and before you know it they have worked together to totally nail the bug and now they both can reproduce the issue on demand. 
+
+
+
+
+I once saw a guy sacked for passing a large set of test cases over the space of a week, all of which required a flat bed scanner. He was sacked because the company didn't own a flat bed scanner.
+
+
+
+
+Speak the truth, don't lie.

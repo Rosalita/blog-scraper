@@ -1,0 +1,32 @@
+Assume any information given to you could be made of lies until you have proven it to be true (and seen it to be true with your own eyes). 
+
+
+If information given comes from a non-technical or customer facing source be especially wary. If that source is members of the general public then loud warning klaxons should be immediately sounding in your head! 
+
+
+What happens when someone else sets your baseline or expected behaviour and the thing you are testing does not meet that baseline? Well, firstly you don't have enough information to establish where the error is. Is it a problem with the thing being tested or a problem with the expectation set for the thing being tested. Don't always assume blindly that your oracle is correct! 
+
+
+Without any prior knowledge of a system, if Bob one day tells you that Software A and software B share the same database. You might think 'Hey Bob thanks for sharing that information with me, that's going to make my life much easier now I know that.' If he had worked on the system for many years would his statement be any more valid than if he had been at the company a week? Possibly. But Bob is still a human and he could make a mistake with the words he used to describe what he was actually trying to communicate to you.
+
+ 
+
+What if what Bob actually meant to say is Software A has a single database table which Software B also uses and there is also a second database where the majority of information used by software B lives. Would that change the way you test the interaction between software A and software B? Of course it would! This revelation would certainly lead to more questions. The first new question possibly being can both pieces of software write to this shared table? But what would happen if you were a black box tester and only found out Bob's initial statement to you was false while you were in the middle of running some tests based on what he had said?
+
+
+It could possibly change the way you interact with Bob, repeated swearing and name calling may even happen depending on the situation and levels of rage. 
+
+
+Happy testers realise that questioning everything that isn't clear also includes questioning people. These days, if someone said to me software A and software B share a database. My initial response would be 'Orly?' then I would actually take a few measurements to check that this statement was true before embarking on major time consuming testing adventures. I guess just like in the same way you would check the oil and water in a car before going on a long journey. 
+
+
+To summarise, humans are human, even if they tell you about cake, the cake could always be a lie.
+
+
+
+
+
+
+
+
+[![image](http://4.bp.blogspot.com/-wIBQQubbneo/VXXU87K19QI/AAAAAAAABXE/M5UL36nyU7s/s320/cake.jpg)](http://4.bp.blogspot.com/-wIBQQubbneo/VXXU87K19QI/AAAAAAAABXE/M5UL36nyU7s/s1600/cake.jpg)

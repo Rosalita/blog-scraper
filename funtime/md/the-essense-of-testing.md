@@ -1,0 +1,21 @@
+For some reason, the world of software testing is a minefield when it comes to terminology. The International Software Testing Qualification Board (ISTEQ) currently has a 50 page pdf document explaining testing terminology which can be downloaded from their [website](http://www.istqb.org/downloads/viewcategory/20.html). When I first learnt how to test computer games I was not taken to one side and told to memorise any of these terms before I could start testing. I'm fairly certain that someone with zero experience of testing software could learn all the these terms, but even once they knew the lingo this probably would not enable them to perform meaningful tests. 
+
+
+
+
+When I worked in games testing I was once told by a freshly hired Analyst that I should carry out pair-wise testing on the project I was working on. I had no idea what pair-wise testing was at the time. The Analyst then started trying to explaining pair-wise testing to me, but found himself struggling and told me to "just create an account at hexawise.com and that will generate test cases for you". I followed this advice because I was really excited to see what pair-wise testing was especially as I had been told it would solve a lot of problems. About 30 minutes later I was very disappointed to learn that pair-wise testing was not something new or special. The test team already did pair-wise testing, it was just that nobody had ever called it pair-wise testing before. Admittedly we worked out the combination to test using an excel spreadsheet rather than using a site like [hexawise.com](https://www.hexawise.com/) but it in essence was the same thing.
+
+
+
+
+I believe that in certain situations complicated test terminology can hinder more than it helps. This is especially true when working with new testers that are still learning the ropes. If I asked an experienced software tester "What is testing?" I might hear words like manual, automated, blackbox, whitebox, greybox, exploratory, compliance, acceptance, agile. But what is the actual essence of testing, how can it be described it in simple plain English words to someone that doesn't speak the ISTEQ lingo. 
+
+
+
+
+For me, the essence of testing is simply "collecting evidence to prove the circumstances where something will not work"
+
+
+
+
+And this is why testing is hard. A software tester needs to be able to think of every circumstance where the thing being tested will not work. This requires intelligence, imagination, numeracy, problem solving skills, a curious mind and the ability to learn new things very quickly. Razor sharp eyes are also very useful. 
