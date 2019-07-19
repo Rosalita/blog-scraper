@@ -1,2 +1,2 @@
-# sl-scrape
-Scrape my own blog posts back from Scott Logic
+#blog-scraper
+Scrape my own blog posts back to markdown
